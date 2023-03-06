@@ -245,7 +245,7 @@ a:hover{
 .team{
     width: 100%;
     padding: 50px 80px;
-    min-width: 400px;
+    min-height: 300px;
 }
 
 .team-header{
@@ -276,5 +276,30 @@ a:hover{
     flex-basis: auto;
     min-width: 200px;
     min-height: 500px;
+    padding-top: 100px;
+    
 }
 /* end of the team */
+
+/* start of the footer */
+.footer-container{
+    width: 100%;
+    padding: 20px 80px;
+    background-color: grey;
+    color: white;
+    min-height: 50px;
+    vertical-align: middle;
+}
+.footer-note::after{
+    content: url('../images/webscope.svg');
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+.footer-note{
+    text-align: center;
+    text-justify: center;
+    padding: 2px;
+}
+
+/* end of the footer */
