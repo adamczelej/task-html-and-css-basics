@@ -4,12 +4,12 @@ body, html{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Start of header styling */
+/* Start of nav styling */
 header{
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     width: 100%;
     min-height: 400px;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 .nav{
     display: flex;
@@ -20,7 +20,7 @@ header{
     min-width: 500px;
 }
 .logo{
-    padding: 10px;
+    padding-top: 10px;
 }  
 .logo--width{
     width: 100px;
@@ -37,4 +37,52 @@ a:hover{
 .nav__item{
     padding: 20px;
 }
-/* End of header styling */
+/* End of nav styling */
+
+/* Start of hero styling */
+.hero-container{
+    padding: 50px 0;
+    display: flex;
+}
+.hero__presentation{
+    flex-basis: 45%;
+}
+.hero__header{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.hero__header, .hero__paragraph, .hero__button{
+    color: white;
+    margin-bottom: 20px;
+}
+.hero__paragraph, .hero__button{
+    font-size: 1.25rem;
+} 
+.hero__button{
+    background-color: #25F18B;
+    box-sizing: border-box;
+    min-width: 180px;
+    text-align: center;
+    min-height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+.hero__button:hover{
+    background-color: #44bd32;
+}
+.hero__picture{
+    flex-basis: 55%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transform: rotate(-5deg);
+    min-width: 200px;
+    min-height: 125px;
+    padding-bottom: 80px;
+   
+}
+
+/* End of hero styling */
