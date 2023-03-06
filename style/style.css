@@ -82,7 +82,85 @@ a:hover{
     min-width: 200px;
     min-height: 125px;
     padding-bottom: 80px;
-   
 }
-
 /* End of hero styling */
+
+/* Start of feature styling*/
+.feature-container{
+    background-color: black;
+    min-height: 400px;
+    width: 100%;
+    padding: 50px 80px;
+    color: white;
+}
+.feature__header{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+.features__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.feature{
+    text-align: center;
+    flex-basis: 25%;
+    padding: 10px 20px;
+}
+.feature-caption{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.feature__image--background{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+/* End of feature styling*/
+
+/* start of logos */
+.logos{
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFA;
+}
+/* end of logos */
+
+/* Start of simple */
+.simple-container{
+    display: flex;
+    min-height: 400px;
+    width: 100%;
+    padding: 50px 80px;
+    justify-content: center;
+    
+}
+.simple__photo{
+    flex-basis: 55%;
+    padding: 30px;
+}
+.simple__description{
+    flex-basis: 45%;
+    padding: 30px;
+}
+.simple__header, .simple__paragraph{
+    margin: 20px;
+    width: 350px;
+}
+.simple__paragraph{
+    font-weight: 250;
+}
+/* End of simple */
