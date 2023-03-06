@@ -240,3 +240,41 @@ a:hover{
     box-shadow: 2px 2px 20px 10px #dce0e0;
 }
 /* end of buy plan */
+
+/* start of the team */
+.team{
+    width: 100%;
+    padding: 50px 80px;
+    min-width: 400px;
+}
+
+.team-header{
+    font-size: 2rem;
+    text-align: center;
+    text-justify: center;
+    margin-bottom: 50px;
+}
+.team-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.member-status, .member-description{
+   text-align: center;
+   line-height: 1.5rem;
+}
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.team-member{
+    padding: 10px;
+    box-sizing: border-box;
+    flex-basis: auto;
+    min-width: 200px;
+    min-height: 500px;
+}
+/* end of the team */
